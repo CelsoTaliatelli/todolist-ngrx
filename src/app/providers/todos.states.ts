@@ -6,15 +6,4 @@ export interface TodoModel {
 
 
 
-export let todos: TodoModel [] = [
-    {
-        id:1,
-        completed:false,
-        title:"hi"
-    },
-    {
-        id:1,
-        completed:false,
-        title:"hello"
-    }
-]
+export let todos: TodoModel [] = []

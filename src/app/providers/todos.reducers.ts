@@ -17,8 +17,9 @@ export const todoReducer = createReducer(
         return [...tempStates]
     }),
     on(actions.deleteTodoAction,(state,todo) => {
+        console.log(todo);
        let todos = state.filter((t) => t.id != todo.id);
-      
+        console.log(todos);
         return [...todos]
     })
 );
